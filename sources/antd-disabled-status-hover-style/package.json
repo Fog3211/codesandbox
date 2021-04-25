@@ -1,0 +1,31 @@
+{
+  "title": "基本使用 - antd@4.15.3-alpha.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "react-scripts": "^4.0.0",
+    "react-dom": "^16.14.0",
+    "react": "^16.14.0",
+    "antd": "4.15.3-alpha.0",
+    "@ant-design/icons": "latest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [],
+  "name": "antd-disabled-status-hover-style",
+  "description": "Antd Input disabled必填校验后hover样式不符合预期",
+  "version": "0.0.7"
+}

@@ -13,7 +13,7 @@ build
 
 pnpm-lock.yaml
 package-lock.json
-yarn.lock
+# yarn.lock
 *.log
 
 .vscode
