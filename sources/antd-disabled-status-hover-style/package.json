@@ -9,12 +9,12 @@
   "main": "index.js",
   "devDependencies": {
     "react-scripts": "1.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "4.0.5"
   },
   "dependencies": {
-    "react-scripts": "^4.0.0",
-    "react-dom": "^16.14.0",
-    "react": "^16.14.0",
+    "react-scripts": "4.0.0",
+    "react-dom": "16.14.0",
+    "react": "16.14.0",
     "antd": "4.15.3-alpha.0",
     "@ant-design/icons": "latest"
   },
