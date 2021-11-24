@@ -1,0 +1,25 @@
+{
+  "name": "rollup-node-polyfill-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fog3211",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/plugin-transform-runtime": "7.16.4",
+    "@babel/preset-env": "7.16.4",
+    "@rollup/plugin-babel": "5.3.0",
+    "@rollup/plugin-commonjs": "21.0.1",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "13.0.6",
+    "rollup": "2.60.1",
+    "rollup-plugin-node-globals": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.7.0"
+  },
+  "dependencies": {
+    "address": "1.1.2"
+  }
+}
