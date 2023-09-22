@@ -2,17 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { LoginPage } from "./Login";
-import { HashRouter, useRoutes } from "react-router-dom";
+import { BrowserRouter, useRoutes } from "react-router-dom";
 
 const Router = () => {
   const element = useRoutes([
     {
-      path: "/",
-      element: <App />,
-    },
-    {
       path: "/login",
       element: <LoginPage />,
+    },
+    {
+      path: "/",
+      element: <App />,
     },
   ]);
 
@@ -21,8 +21,8 @@ const Router = () => {
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Router />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
 );

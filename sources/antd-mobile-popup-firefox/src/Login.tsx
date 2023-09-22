@@ -8,6 +8,9 @@ export const LoginPage = () => {
         onClick={() => {
           alert("click div");
         }}
+        // onMouseDown={()=>{
+        //   alert('onMouseDown div')
+        // }}
         className="btn1"
       >
         div button

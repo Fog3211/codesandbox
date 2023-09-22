@@ -6,8 +6,8 @@
   border: 1px solid #ccc;
   padding: 2px 4px;
   border-radius: 6px;
-  display: inline-block;
   cursor: pointer;
+  /* user-select: none; */
 }
 
 .btn1:active {
@@ -15,11 +15,12 @@
 }
 
 .btn2 {
-  margin-left: 10px;
+  display: block;
+  margin-top: 20px;
 }
 
 .img {
-  margin-left: 10px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
